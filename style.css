@@ -167,6 +167,7 @@ ul {
     color: white;
     padding: 50px;
     border-radius: 8px;
+    justify-content: space-around;
 }
 
 .question {
@@ -177,4 +178,9 @@ ul {
 
 .banner .sign-up {
     outline: 2px solid white;
+}
+
+.question .header {
+    font-weight: bold;
+    font-size: 20px;
 }
