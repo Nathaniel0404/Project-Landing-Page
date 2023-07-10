@@ -117,3 +117,9 @@ ul {
 .block img {
     width: 200px;
 }
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
