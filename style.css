@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-  
+    margin: 0px;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    gap: 15px;
+    padding: 10px;
+    padding-bottom: 100px;
 }
 
 a {
@@ -15,6 +29,7 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-shrink: 0;
 }
 
 .logo .image {
@@ -32,8 +47,6 @@ a {
 .header {
     display: flex;
     align-items: center;
-    background-color: #1f2937;
-    color: #f9faf8;
     justify-content: space-around;
    
    
@@ -48,9 +61,36 @@ ul {
 }
 
 .hero {
-    background-color: #1f2937;
-    color: #f9faf8;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
+
+.hero .content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.content .secondary {
+    font-size: 18px;
+    color: #b2b5ba;
+}
+
+.sign-up {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: royalblue;
+    color: white;
+    border: none;
+    width: 100px;
+    flex: 0 0 auto;
+}
+
 
