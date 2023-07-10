@@ -154,3 +154,19 @@ ul {
     padding-right: 80px;
     font-weight: bold;
 }
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    background-color: royalblue;
+    color: white;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
