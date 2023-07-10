@@ -110,3 +110,7 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+
+.block img {
+    width: 200px;
+}
